@@ -1,0 +1,44 @@
+<!--
+  SEMANTIC HTML:
+    - SEO w/ webcrawlers & search engines
+     - they look for semantic tags during indexing
+    - Web accessibility for impaired users
+      - becoming more and more important
+      - shows care by the developer which is something that employers look for
+    - Developer experience
+      - Looking for content in a document is much easier with semantic tags being used
+    - Common semantic HTML tags?
+      - article, header, nav, footer, aside, main..
+  IDs, CLASSES
+    - classes can be used more than once, IDs should only be used once
+    - IDs have higher specificity
+
+  CSS:
+    - Don't forget to link your CSS to HTML
+    - How can we target HTML elements to sylize?
+      - by tag name, class name, or id
+    - What are some combinators
+      - >, space, ,
+    - DRY don't repeat yourself
+-->
+
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+
+    <title>HTML/CSS 1 Review</title>
+
+    <link rel='stylesheet' href="index.css" />
+</head>
+
+<body>
+    <section class='shapes'>
+        <div id='square' class='shape'></div>
+        <div id='circle' class='shape'></div>
+    </section>
+</body>
+
+</html>
